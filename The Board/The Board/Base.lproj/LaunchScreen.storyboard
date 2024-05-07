@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright © 2017 Forest Commodities Board Inc. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="KBc-K6-YSp">
+                                <rect key="frame" x="20" y="625.5" width="335" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="VeD-Um-YQL"/>
+                                    <constraint firstAttribute="width" constant="335" id="WQe-4a-lLS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FCB_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="GXC-gR-rNG">
+                                <rect key="frame" x="33" y="189" width="308" height="289"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="308" id="2NQ-ko-qmG"/>
+                                    <constraint firstAttribute="height" constant="289" id="DNs-ss-dOV"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KBc-K6-YSp" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="70J-I9-KIY"/>
+                            <constraint firstItem="GXC-gR-rNG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KF0-tI-33q"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="KBc-K6-YSp" secondAttribute="bottom" constant="20.5" id="QDf-pq-NYO"/>
+                            <constraint firstItem="GXC-gR-rNG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qeM-8R-xP8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FCB_logo.png" width="650" height="604"/>
+    </resources>
+</document>
