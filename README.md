@@ -9,11 +9,11 @@
     <img src="FC.png" alt="Logo" width="180" height="180">
   </a>
 
-<h1 align="center">Nat & Sami's Rare Mineral Store</h1>
+<h1 align="center">FCB - ForCombo the Board</h1>
 
 <p align="center">
   <strong>Mission Statement</strong><br>
-  " Our mission is to ensure every Canadian can get a pure sample of any rare earth metal on their doorstep within two days. "
+  " Our mission is to allow convenient calculatuons to be avaliable for browsing & purchase of various lengths of wood. "
 </p>
 
 <p align="center">
